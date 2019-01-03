@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243C160121DE06F800C9AF4A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C15FE21DE06F700C9AF4A /* Constants.swift */; };
+		243C160221DE06F800C9AF4A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C15FF21DE06F700C9AF4A /* Extension.swift */; };
+		243C160321DE06F800C9AF4A /* CommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243C160021DE06F700C9AF4A /* CommonUtils.swift */; };
 		24DA383921DDCBEF0046147E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA383821DDCBEF0046147E /* AppDelegate.swift */; };
-		24DA383B21DDCBF00046147E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA383A21DDCBF00046147E /* ViewController.swift */; };
 		24DA383E21DDCBF10046147E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DA383C21DDCBF10046147E /* Main.storyboard */; };
 		24DA384021DDCC480046147E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DA383F21DDCC480046147E /* Assets.xcassets */; };
 		24DA384321DDCC480046147E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DA384121DDCC480046147E /* LaunchScreen.storyboard */; };
+		24DA386821DDD2800046147E /* VCScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA385921DDD27F0046147E /* VCScanner.swift */; };
+		24DA387321DDD6910046147E /* UserHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA387221DDD6910046147E /* UserHandler.swift */; };
+		24DA387921DDD7010046147E /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA387621DDD7010046147E /* KYEmbedDrawerControllerSegue.swift */; };
+		24DA387A21DDD7010046147E /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA387721DDD7010046147E /* KYDrawerController.swift */; };
+		24DA387B21DDD7010046147E /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA387821DDD7010046147E /* KYEmbedMainControllerSegue.swift */; };
+		24DA387D21DDDA630046147E /* VCLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA387C21DDDA630046147E /* VCLogin.swift */; };
+		24DA388A21DDDDED0046147E /* SairaCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388021DDDDEC0046147E /* SairaCondensed-SemiBold.ttf */; };
+		24DA388B21DDDDED0046147E /* SairaCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388121DDDDEC0046147E /* SairaCondensed-Light.ttf */; };
+		24DA388C21DDDDED0046147E /* SairaCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388221DDDDEC0046147E /* SairaCondensed-Medium.ttf */; };
+		24DA388D21DDDDED0046147E /* SairaCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388321DDDDEC0046147E /* SairaCondensed-Regular.ttf */; };
+		24DA388E21DDDDED0046147E /* SairaCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388421DDDDEC0046147E /* SairaCondensed-Thin.ttf */; };
+		24DA388F21DDDDED0046147E /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388521DDDDEC0046147E /* OFL.txt */; };
+		24DA389021DDDDED0046147E /* SairaCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388621DDDDEC0046147E /* SairaCondensed-Bold.ttf */; };
+		24DA389121DDDDED0046147E /* SairaCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388721DDDDEC0046147E /* SairaCondensed-Black.ttf */; };
+		24DA389221DDDDED0046147E /* SairaCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388821DDDDEC0046147E /* SairaCondensed-ExtraLight.ttf */; };
+		24DA389321DDDDED0046147E /* SairaCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24DA388921DDDDEC0046147E /* SairaCondensed-ExtraBold.ttf */; };
+		24DA389521DDE6070046147E /* VCHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA389421DDE6070046147E /* VCHome.swift */; };
+		24DA389721DDE6230046147E /* VCHomeDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA389621DDE6230046147E /* VCHomeDrawer.swift */; };
+		24DA389D21DDEA820046147E /* DrawerTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24DA389921DDEA820046147E /* DrawerTitleTableViewCell.xib */; };
+		24DA389E21DDEA820046147E /* DrawerHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24DA389A21DDEA820046147E /* DrawerHeaderTableViewCell.xib */; };
+		24DA389F21DDEA820046147E /* DrawerHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA389B21DDEA820046147E /* DrawerHeaderTableViewCell.swift */; };
+		24DA38A021DDEA820046147E /* DrawerTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA389C21DDEA820046147E /* DrawerTitleTableViewCell.swift */; };
+		24DA38A221DDEF430046147E /* VCSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA38A121DDEF220046147E /* VCSettings.swift */; };
+		24DA38A521DDEF5B0046147E /* VCHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA38A321DDEF5B0046147E /* VCHistory.swift */; };
+		24DA38A621DDEF5B0046147E /* VCMyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DA38A421DDEF5B0046147E /* VCMyProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243C15FE21DE06F700C9AF4A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		243C15FF21DE06F700C9AF4A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		243C160021DE06F700C9AF4A /* CommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtils.swift; sourceTree = "<group>"; };
 		24DA383521DDCBEF0046147E /* Custome_Drawer+Navigation_Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custome_Drawer+Navigation_Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DA383821DDCBEF0046147E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24DA383A21DDCBF00046147E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24DA383D21DDCBF10046147E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24DA383F21DDCC480046147E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DA384221DDCC480046147E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24DA384421DDCC480046147E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DA385921DDD27F0046147E /* VCScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCScanner.swift; sourceTree = "<group>"; };
+		24DA387221DDD6910046147E /* UserHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHandler.swift; sourceTree = "<group>"; };
+		24DA387621DDD7010046147E /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		24DA387721DDD7010046147E /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		24DA387821DDD7010046147E /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		24DA387C21DDDA630046147E /* VCLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLogin.swift; sourceTree = "<group>"; };
+		24DA388021DDDDEC0046147E /* SairaCondensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		24DA388121DDDDEC0046147E /* SairaCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Light.ttf"; sourceTree = "<group>"; };
+		24DA388221DDDDEC0046147E /* SairaCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		24DA388321DDDDEC0046147E /* SairaCondensed-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		24DA388421DDDDEC0046147E /* SairaCondensed-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Thin.ttf"; sourceTree = "<group>"; };
+		24DA388521DDDDEC0046147E /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		24DA388621DDDDEC0046147E /* SairaCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		24DA388721DDDDEC0046147E /* SairaCondensed-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-Black.ttf"; sourceTree = "<group>"; };
+		24DA388821DDDDEC0046147E /* SairaCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		24DA388921DDDDEC0046147E /* SairaCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SairaCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		24DA389421DDE6070046147E /* VCHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHome.swift; sourceTree = "<group>"; };
+		24DA389621DDE6230046147E /* VCHomeDrawer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHomeDrawer.swift; sourceTree = "<group>"; };
+		24DA389921DDEA820046147E /* DrawerTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerTitleTableViewCell.xib; sourceTree = "<group>"; };
+		24DA389A21DDEA820046147E /* DrawerHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		24DA389B21DDEA820046147E /* DrawerHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		24DA389C21DDEA820046147E /* DrawerTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerTitleTableViewCell.swift; sourceTree = "<group>"; };
+		24DA38A121DDEF220046147E /* VCSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCSettings.swift; sourceTree = "<group>"; };
+		24DA38A321DDEF5B0046147E /* VCHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCHistory.swift; sourceTree = "<group>"; };
+		24DA38A421DDEF5B0046147E /* VCMyProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMyProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243C15FD21DE06F700C9AF4A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				243C15FE21DE06F700C9AF4A /* Constants.swift */,
+				243C15FF21DE06F700C9AF4A /* Extension.swift */,
+				243C160021DE06F700C9AF4A /* CommonUtils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		24DA382C21DDCBEE0046147E = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +118,103 @@
 		24DA383721DDCBEF0046147E /* Custome_Drawer+Navigation_Controller */ = {
 			isa = PBXGroup;
 			children = (
+				243C15FD21DE06F700C9AF4A /* Helpers */,
+				24DA389821DDEA2D0046147E /* Views */,
+				24DA387E21DDDDEC0046147E /* Resources */,
+				24DA387421DDD7010046147E /* Libraries */,
+				24DA387121DDD6900046147E /* Models */,
+				24DA384B21DDCD360046147E /* Support Files */,
+				24DA384A21DDCD030046147E /* Controllers */,
+			);
+			path = "Custome_Drawer+Navigation_Controller";
+			sourceTree = "<group>";
+		};
+		24DA384A21DDCD030046147E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24DA38A321DDEF5B0046147E /* VCHistory.swift */,
+				24DA38A421DDEF5B0046147E /* VCMyProfile.swift */,
+				24DA38A121DDEF220046147E /* VCSettings.swift */,
+				24DA389621DDE6230046147E /* VCHomeDrawer.swift */,
+				24DA389421DDE6070046147E /* VCHome.swift */,
+				24DA387C21DDDA630046147E /* VCLogin.swift */,
+				24DA385921DDD27F0046147E /* VCScanner.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		24DA384B21DDCD360046147E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				24DA383821DDCBEF0046147E /* AppDelegate.swift */,
-				24DA383A21DDCBF00046147E /* ViewController.swift */,
 				24DA383C21DDCBF10046147E /* Main.storyboard */,
 				24DA383F21DDCC480046147E /* Assets.xcassets */,
 				24DA384121DDCC480046147E /* LaunchScreen.storyboard */,
 				24DA384421DDCC480046147E /* Info.plist */,
 			);
-			path = "Custome_Drawer+Navigation_Controller";
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		24DA387121DDD6900046147E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24DA387221DDD6910046147E /* UserHandler.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		24DA387421DDD7010046147E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				24DA387521DDD7010046147E /* KYDrawerClasses */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		24DA387521DDD7010046147E /* KYDrawerClasses */ = {
+			isa = PBXGroup;
+			children = (
+				24DA387621DDD7010046147E /* KYEmbedDrawerControllerSegue.swift */,
+				24DA387721DDD7010046147E /* KYDrawerController.swift */,
+				24DA387821DDD7010046147E /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = KYDrawerClasses;
+			sourceTree = "<group>";
+		};
+		24DA387E21DDDDEC0046147E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24DA387F21DDDDEC0046147E /* Font_Saira_Condensed */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24DA387F21DDDDEC0046147E /* Font_Saira_Condensed */ = {
+			isa = PBXGroup;
+			children = (
+				24DA388021DDDDEC0046147E /* SairaCondensed-SemiBold.ttf */,
+				24DA388121DDDDEC0046147E /* SairaCondensed-Light.ttf */,
+				24DA388221DDDDEC0046147E /* SairaCondensed-Medium.ttf */,
+				24DA388321DDDDEC0046147E /* SairaCondensed-Regular.ttf */,
+				24DA388421DDDDEC0046147E /* SairaCondensed-Thin.ttf */,
+				24DA388521DDDDEC0046147E /* OFL.txt */,
+				24DA388621DDDDEC0046147E /* SairaCondensed-Bold.ttf */,
+				24DA388721DDDDEC0046147E /* SairaCondensed-Black.ttf */,
+				24DA388821DDDDEC0046147E /* SairaCondensed-ExtraLight.ttf */,
+				24DA388921DDDDEC0046147E /* SairaCondensed-ExtraBold.ttf */,
+			);
+			path = Font_Saira_Condensed;
+			sourceTree = "<group>";
+		};
+		24DA389821DDEA2D0046147E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24DA389B21DDEA820046147E /* DrawerHeaderTableViewCell.swift */,
+				24DA389A21DDEA820046147E /* DrawerHeaderTableViewCell.xib */,
+				24DA389C21DDEA820046147E /* DrawerTitleTableViewCell.swift */,
+				24DA389921DDEA820046147E /* DrawerTitleTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +275,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DA388C21DDDDED0046147E /* SairaCondensed-Medium.ttf in Resources */,
 				24DA384321DDCC480046147E /* LaunchScreen.storyboard in Resources */,
+				24DA389021DDDDED0046147E /* SairaCondensed-Bold.ttf in Resources */,
+				24DA389E21DDEA820046147E /* DrawerHeaderTableViewCell.xib in Resources */,
 				24DA384021DDCC480046147E /* Assets.xcassets in Resources */,
+				24DA388F21DDDDED0046147E /* OFL.txt in Resources */,
+				24DA389321DDDDED0046147E /* SairaCondensed-ExtraBold.ttf in Resources */,
+				24DA388A21DDDDED0046147E /* SairaCondensed-SemiBold.ttf in Resources */,
+				24DA389D21DDEA820046147E /* DrawerTitleTableViewCell.xib in Resources */,
+				24DA388B21DDDDED0046147E /* SairaCondensed-Light.ttf in Resources */,
 				24DA383E21DDCBF10046147E /* Main.storyboard in Resources */,
+				24DA388E21DDDDED0046147E /* SairaCondensed-Thin.ttf in Resources */,
+				24DA389221DDDDED0046147E /* SairaCondensed-ExtraLight.ttf in Resources */,
+				24DA389121DDDDED0046147E /* SairaCondensed-Black.ttf in Resources */,
+				24DA388D21DDDDED0046147E /* SairaCondensed-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +300,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DA383B21DDCBF00046147E /* ViewController.swift in Sources */,
+				24DA387921DDD7010046147E /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				24DA389721DDE6230046147E /* VCHomeDrawer.swift in Sources */,
+				24DA387A21DDD7010046147E /* KYDrawerController.swift in Sources */,
+				24DA38A221DDEF430046147E /* VCSettings.swift in Sources */,
 				24DA383921DDCBEF0046147E /* AppDelegate.swift in Sources */,
+				243C160121DE06F800C9AF4A /* Constants.swift in Sources */,
+				24DA38A621DDEF5B0046147E /* VCMyProfile.swift in Sources */,
+				243C160221DE06F800C9AF4A /* Extension.swift in Sources */,
+				24DA389F21DDEA820046147E /* DrawerHeaderTableViewCell.swift in Sources */,
+				24DA387321DDD6910046147E /* UserHandler.swift in Sources */,
+				24DA38A021DDEA820046147E /* DrawerTitleTableViewCell.swift in Sources */,
+				243C160321DE06F800C9AF4A /* CommonUtils.swift in Sources */,
+				24DA386821DDD2800046147E /* VCScanner.swift in Sources */,
+				24DA387D21DDDA630046147E /* VCLogin.swift in Sources */,
+				24DA389521DDE6070046147E /* VCHome.swift in Sources */,
+				24DA387B21DDD7010046147E /* KYEmbedMainControllerSegue.swift in Sources */,
+				24DA38A521DDEF5B0046147E /* VCHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +463,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Custome_Drawer+Navigation_Controller/Info.plist";
+				INFOPLIST_FILE = "Custome_Drawer+Navigation_Controller/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.mobile.Custome-Drawer-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,15 +481,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Custome_Drawer+Navigation_Controller/Info.plist";
+				INFOPLIST_FILE = "Custome_Drawer+Navigation_Controller/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demo.mobile.Custome-Drawer-Navigation-Controller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
